@@ -1,6 +1,6 @@
 {
   "name": "gt-socket-todo-app-sql",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Todo App SQL",
   "main": "server.js",
   "scripts": {
