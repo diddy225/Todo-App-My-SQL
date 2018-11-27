@@ -1,0 +1,96 @@
+#main-container {
+  display: grid;
+  grid-template-columns: 6fr 3fr;
+
+  background-image: url('https://www.beautifulworld.com/wp-content/uploads/2016/09/Angel-Falls.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+
+  font-family: 'Montserrat';
+}
+
+#title {
+  margin-top: 100px;
+  padding-left: 20px;
+  color: #fff;
+}
+
+#title h1 {
+  font-weight: 100;
+  font-size: 2.5em;
+}
+
+#title h2 {
+  font-weight: 700;
+  font-size: 2em;
+}
+
+#todo-box {
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+#list-container {
+  background-color: rgba(200,200,200, 0.9);
+  border-left: 2px solid rgba(100,100,100, 0.15);
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  padding: 100px 0 25px 0;
+  box-shadow: -5px 0px 20px rgba(0,0,0, 0.7);
+}
+
+#list li {
+  border-bottom: 2px solid rgba(100,100,100, 0.15);
+  width: 100%;
+  padding-bottom: 8px;
+}
+
+#list li span {
+  font-size: 1.8em;
+  font-weight: 500;
+}
+
+#list i {
+  color: rgba(100,100,100, 0.8);
+  align-self: center;
+  margin-right: 8px;
+}
+
+#todo-input {
+  background: none;
+  border: none;
+  border-bottom: 2px solid rgba(100,100,100, 0.15);
+  font-size: 1.8em;
+  width: 99%;
+}
+
+form {
+  margin-left: 20px;
+  text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+  #main-container {
+    display: grid;
+    grid-template-columns: 1fr 4.5fr;
+  }
+  
+  #title h1, #title h2 {
+    display: none;
+  }
+
+  #list-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 40px 0 25px 0;
+  }
+
+  #todo-box:first-child {
+    margin-top: 40px;
+  }
+}
