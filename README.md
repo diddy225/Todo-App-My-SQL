@@ -15,9 +15,9 @@ For the main part of this week's homework, you're going to be creating a to do l
 
 Use this image as your UI guide.
 
-![screenshot](https://gt.bootcampcontent.com/GT-Coding-Boot-Camp/GTATL201808FSF2-2/raw/master/homework/14-unit/images/desktop.png)
+[screenshot](https://gt.bootcampcontent.com/GT-Coding-Boot-Camp/GTATL201808FSF2-2/raw/master/homework/14-unit/images/desktop.png)
 
-![Screenshot](https://gt.bootcampcontent.com/GT-Coding-Boot-Camp/GTATL201808FSF2-2/raw/master/homework/14-unit/images/mobile.png)
+[Screenshot](https://gt.bootcampcontent.com/GT-Coding-Boot-Camp/GTATL201808FSF2-2/raw/master/homework/14-unit/images/mobile.png)
 
 
 
